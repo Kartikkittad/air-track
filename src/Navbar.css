@@ -1,12 +1,14 @@
 .sidebar {
     text-align: left;
-    max-width: 230px;
+    width: 230px;
     background-color: #fff;
     position: absolute;
     border-radius: 0.375rem;
-    padding: 10px;
+    padding: 20px;
     height: 80vh;
     margin: 0 auto;
+    align-items: center;
+    z-index: 1;
 }
 
 .nav-item {
@@ -15,12 +17,26 @@
     height: 48px;
 }
 
+.sidebar-nav {
+    margin-top: 50px;
+}
+
+.nav-title {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    align-items: center;
+    display: flex;
+}
+
 img {
     width: 15px;
     height: 15px;
     margin-right: 10px;
     transition: transform 0.3s ease-in-out;
     transform: translateX(-100%);
+
 }
 
 .navbar-toggler-icon {
@@ -29,9 +45,9 @@ img {
 
 .menu {
     position: absolute;
-    top: 87px;
+    top: 120px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 999;
 }
 
 .sidebar {

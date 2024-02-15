@@ -3,7 +3,6 @@ import Form from 'react-bootstrap/Form';
 import './Tracking.css'
 import Dropdown from 'react-bootstrap/Dropdown';
 import data from './status.json';
-import '@coreui/coreui/dist/css/coreui.min.css'
 
 const TrackingComponent = () => {
     const [trackingNumber, setTrackingNumber] = useState('');

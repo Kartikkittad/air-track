@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '@coreui/coreui/dist/css/coreui.min.css';
 import './Navbar.css';
 import Home from './assets/home.svg';
 import Info from './assets/info.svg';
@@ -28,7 +27,8 @@ function Navbar() {
                         fontSize: '16px',
                         backgroundColor: 'transparent',
                         border: 'none',
-                        maxWidth: '150px'
+                        maxWidth: '150px',
+                        fontWeight: '600'
                     }}>Track-Trace</li>
                     <li className="nav-item">
                         <a className="nav-link" href="#" style={{ color: 'black' }}><img src={Home} alt="Home icon" />Home</a>
