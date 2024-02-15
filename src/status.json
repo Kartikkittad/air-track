@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "number": "057",
+        "origin": "AF-KL-MP Cargo(AF/KL/MP)"
+    },
+    {
+        "id": 2,
+        "number": "074",
+        "origin": "AF-KL-MP Cargo(AF/KL/MP)"
+    },
+    {
+        "id": 3,
+        "number": "071",
+        "origin": "Ethiopian Airlines(ET)"
+    },
+    {
+        "id": 4,
+        "number": "125",
+        "origin": "IAG Cargo(IB/BA/EI)"
+    },
+    {
+        "id": 5,
+        "number": "235",
+        "origin": "Turkish Airlines(TK)"
+    }
+]

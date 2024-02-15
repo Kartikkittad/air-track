@@ -1,0 +1,162 @@
+.con {
+    gap: 10px;
+    align-items: left;
+    width: 729px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 26px;
+    padding-bottom: 20px;
+    margin-right: 0;
+}
+
+.input {
+    height: 40.5px;
+    max-width: 470px;
+}
+
+body {
+    /* height: 100vh; */
+    background-color: #f2f2f2;
+    overflow-y: hidden;
+}
+
+.f {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.s {
+    padding: 20px;
+    max-width: 320px;
+    text-align: center;
+
+
+}
+
+label {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.s2 {
+    padding: 20px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+#dropdown-basic-button {
+    width: 320px;
+}
+
+.line2 {
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+}
+
+.select {
+    max-width: 729px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.drop {
+    max-width: 729px;
+}
+
+.drop-btn {
+    width: 687.66px;
+}
+
+.drop-menu {
+    width: 687.66px;
+}
+
+.s2 {
+    line-height: 20px;
+
+    li {
+        font-size: 16px;
+    }
+}
+
+.container {
+    gap: 30px;
+}
+
+.auth {
+    margin-left: 0;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    button {
+        min-width: 144px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .btnA {
+        margin-top: 10px;
+        width: 225px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .con {
+        width: 100%;
+        /* padding: 0 20px; */
+        /* Adjust padding as needed */
+    }
+
+    .input {
+        max-width: 100%;
+    }
+
+
+    .s,
+    .s2 {
+        max-width: 100%;
+    }
+
+    #dropdown-basic-button {
+        width: 100%;
+    }
+
+    .select,
+    .drop,
+    .drop-btn,
+    .drop-menu {
+        max-width: 100%;
+    }
+
+    .auth {
+        flex-direction: column;
+        /* Switch to column layout */
+        margin: 0 auto;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    body {
+        overflow-y: scroll;
+    }
+
+    .line2 {
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .track-header {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+}
